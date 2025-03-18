@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on Fish disease detection using Computer Vision<br>👯 I’m looking to collaborate on Machine Learning Projects(NLP and Computer Vision)<br>🤝 I’m looking for help with my project hand written text recognition(for making model for text recognition and ctc function)<br>🌱 I’m currently learning Data structures and Algorithms(https://leetcode.com/u/Vardhan1729), Deep Learning<br>💬 Ask me about : Ask me about Computer Vision techniques, TensorFlow, or the latest trends in Machine Learning and any doubts on Data Structures and Algorithms<br>⚡ Fun fact : I’m an gamer and love exploring game development in my free time.
+🔭 I’m currently working on Fish disease detection using Computer Vision<br>👯 I’m looking to collaborate on Machine Learning Projects(NLP and Computer Vision)<br>🤝 I’m looking for help with my project hand written text recognition(for making model for text recognition and ctc function)<br>🌱 I’m currently learning Data structures and Algorithms(https://leetcode.com/u/Vardhan1729), Deep Learning<br>💬 Ask me about : Ask me about Computer Vision techniques, Pytorch, or the latest trends in Machine Learning and any doubts on Data Structures and Algorithms<br>⚡ Fun fact : I’m an gamer and love exploring game development in my free time.
 
 
 ## 🌐 Socials:
