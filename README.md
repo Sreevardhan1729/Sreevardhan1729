@@ -15,7 +15,7 @@ I am a passionate and results-oriented Computer Science student with a strong fo
 ### Software Engineer Intern | AlgoUniversity
 *Built an AI-powered web scraper in Python to extract coding problems and generate topic tags.*
 *Developed and deployed a full-stack online coding platform with a custom compiler using Docker on AWS EC2.*
-*Mentored 60+ students in Django and full-stack development, guiding them to complete real-world projects.*
+*Mentored 150+ students in Django and full-stack development, guiding them to complete real-world projects.*
 
 ### Data Analyst Intern | University of Massachusetts
 *Conducted data-driven program evaluation by analyzing 100+ survey responses, ensuring impact assessment.*
