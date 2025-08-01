@@ -1,8 +1,8 @@
 # 💫 About Me:
 I am a passionate and results-oriented Computer Science student with a strong foundation in software development, machine learning, and data science. I have hands-on experience in developing and deploying full-stack applications and machine learning models. I am a quick learner and always eager to take on new challenges.
 
-- 🔭 I’m currently working on enhancing my skills in Deep Learning and System Design.
-- 🌱 I’m currently learning about advanced topics in Natural Language Processing and Computer Vision.
+- 🔭 I’m currently working on enhancing my skills in Gen AI and System Design.
+- 🌱 I’m currently learning about advanced topics in RAG and Computer Vision.
 - 👯 I’m looking to collaborate on open-source projects related to machine learning and web development.
 - 💬 Ask me about Python, C++, Java, Machine Learning, Deep Learning, and Data Structures & Algorithms.
 - 📫 How to reach me: itssreevardhan@gmail.com
