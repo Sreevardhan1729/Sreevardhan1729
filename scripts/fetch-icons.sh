@@ -28,7 +28,7 @@ fetch "https://skillicons.dev/icons?i=$ICONS&theme=dark&perline=12" stack-dark.s
 
 BADGE="https://img.shields.io/badge"
 fetch "$BADGE/Portfolio-047857?style=flat-square&logo=vercel&logoColor=white" badges/portfolio.svg
-fetch "$BADGE/Resume-171714?style=flat-square&logo=googledrive&logoColor=white" badges/resume.svg
+fetch "$BADGE/Resume-57606A?style=flat-square&logo=googledrive&logoColor=white" badges/resume.svg
 fetch "$BADGE/LinkedIn-0A66C2?style=flat-square" badges/linkedin.svg
-fetch "$BADGE/Email-171714?style=flat-square&logo=gmail&logoColor=white" badges/email.svg
+fetch "$BADGE/Email-57606A?style=flat-square&logo=gmail&logoColor=white" badges/email.svg
 fetch "$BADGE/LeetCode_2077-FFA116?style=flat-square&logo=leetcode&logoColor=black" badges/leetcode.svg
