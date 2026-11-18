@@ -141,8 +141,6 @@ function svg(theme, session, fonts) {
     `.blink{animation:blink 1.1s step-end infinite}`,
     `@keyframes clear{0%,97%{opacity:1}100%{opacity:0}}`,
     `.body{animation:clear ${total}ms ease-in infinite}`,
-    `@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}`,
-    `.live{animation:pulse 1.6s ease-in-out infinite}`,
     // With reduced motion, show the finished session without the typing.
     `@media (prefers-reduced-motion: reduce){*{animation:none!important}.cover{display:none}}`,
   )
@@ -169,11 +167,11 @@ ${dot(20)}${dot(36)}${dot(52)}
 <rect x="78" y="${TITLE_H - 2}" width="112" height="2" fill="${p.accent}"/>
 <text x="214" y="${TITLE_H / 2 + 4.5}" fill="${p.muted}" style="font-size:12.5px">Gateway</text>
 <text x="275" y="${TITLE_H / 2 + 4}" fill="${p.dim}" style="font-size:10px">Go</text>
-<text x="${W - 16}" y="${TITLE_H / 2 + 4}" fill="${p.muted}" text-anchor="end" style="font-size:11px">running in your browser</text>
+<text x="${W - 16}" y="${TITLE_H / 2 + 4}" fill="${p.muted}" text-anchor="end" style="font-size:11px">recorded from the live demo</text>
 <text x="${PAD}" y="${TITLE_H + SUB_H / 2 + 4}" fill="${p.muted}" style="font-size:11px">redis-cli · 127.0.0.1:6379</text>
-<rect x="${W - 70}" y="${TITLE_H + 8}" width="54" height="19" rx="9.5" fill="${p.bg2}" stroke="${p.rule}"/>
-<circle class="live" cx="${W - 59}" cy="${TITLE_H + 17.5}" r="3" fill="${p.ok}"/>
-<text x="${W - 51}" y="${TITLE_H + 21}" fill="${p.muted}" style="font-size:10.5px">live</text>
+<rect x="${W - 84}" y="${TITLE_H + 8}" width="68" height="19" rx="9.5" fill="${p.bg2}" stroke="${p.rule}"/>
+<circle cx="${W - 73}" cy="${TITLE_H + 17.5}" r="3" fill="${p.dim}"/>
+<text x="${W - 65}" y="${TITLE_H + 21}" fill="${p.muted}" style="font-size:10.5px">replay</text>
 <line x1="0" y1="${TITLE_H + SUB_H - 0.5}" x2="${W}" y2="${TITLE_H + SUB_H - 0.5}" stroke="${p.rule}"/>
 <g class="body">
 ${rows.join("\n")}
@@ -188,7 +186,7 @@ async function build() {
   const session = JSON.parse(fs.readFileSync(SESSION, "utf8"))
   const allText = [
     PROMPT,
-    "ForgeDB C++ Gateway Go running in your browser redis-cli · 127.0.0.1:6379 live",
+    "ForgeDB C++ Gateway Go recorded from the live demo redis-cli · 127.0.0.1:6379 replay",
     ...session.intro,
     ...session.steps.flatMap((s) => [s.cmd, ...s.out]),
   ].join(" ")

@@ -53,7 +53,7 @@ Previously at [DevRev](https://devrev.ai), where I merged **168 pull requests ac
     <td width="50%" valign="top">
       <a href="https://github.com/devrev/meerkat"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-meerkat-dark.png"><img alt="Three merged pull requests in devrev/meerkat" src="assets/card-meerkat-light.png" width="100%"></picture></a>
       <br><b><a href="https://github.com/devrev/meerkat">Meerkat</a></b> · TypeScript, open source
-      <br>3 merged PRs to DevRev's SDK that turns Cube-style queries into DuckDB SQL: <a href="https://github.com/devrev/meerkat/pull/293">join filters for links</a>, <a href="https://github.com/devrev/meerkat/pull/299">joins through aliased bridge tables</a> and <a href="https://github.com/devrev/meerkat/pull/300">a dependency security fix</a>.
+      <br>3 merged PRs to DevRev's SDK that turns Cube-style queries into DuckDB SQL: <a href="https://github.com/devrev/meerkat/pull/293">join filters for links</a>, <a href="https://github.com/devrev/meerkat/pull/299">a fix for join conditions on aliased bridge tables</a> and <a href="https://github.com/devrev/meerkat/pull/300">a dependency security fix</a>.
     </td>
   </tr>
 </table>
